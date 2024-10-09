@@ -6,9 +6,9 @@ body {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    width: 100vw; 
+    width: calc(100vh); 
     height: 100vh; 
-    gap: 10px;
+    gap: calc(4vh);
 }
 
 .grid-item img {
